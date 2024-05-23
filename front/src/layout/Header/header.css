@@ -1,0 +1,50 @@
+.active{
+    color: rgb(121,97,27);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px  80px;
+    background-color:aqua;
+    align-items: center;
+
+    a{
+    color: white;
+    }
+    .headertext{
+        color: white;
+    }
+    .reservation{
+        color: white;
+    }
+
+}
+
+.point{
+    color: rgb(121,97,27);
+}
+li{
+    display: flex;
+    gap: 20px;
+}
+.reservation{
+    display: flex;
+    gap: 10px;
+}
+.menu{
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .menu{
+        display: block;
+        color: white;
+    }
+    ul{
+        display: none;
+    }
+    .reservation{
+        display: none;
+    }
+    
+}
